@@ -1,0 +1,16 @@
+base_url = "https://pspspss.github.io"
+title = "pspspss"
+description = "Not sure yet, writing about technologies and things I find interesting"
+compile_sass = true
+build_search_index = true
+theme = "hyde"
+
+[markdown]
+highlight_code = true
+
+
+[extra]
+# hyde_theme = "theme-base-0d"
+hyde_links = [
+  {url = "https://github.com/pspspss", name="Github"}
+]
