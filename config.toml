@@ -1,16 +1,34 @@
-base_url = "https://pspspss.github.io"
-title = "pspspss"
+base_url = "https://pauloasjx.github.io"
+title = "pauloasjx"
 description = "Not sure yet, writing about technologies and things I find interesting"
 compile_sass = true
 build_search_index = true
-theme = "hyde"
+
+theme = "asjx-zola-theme"
 
 [markdown]
 highlight_code = true
 
-
 [extra]
-# hyde_theme = "theme-base-0d"
-hyde_links = [
-  {url = "https://github.com/pspspss", name="Github"}
+socials = [
+    { href = "https://twitter.com/", icon = "im im-twitter", text = "Twitter" },
+    { href = "https://www.linkedin.com/in/", icon = "im im-linkedin", text = "Linkedin" },
+    { href = "https://github.com/", icon = "im im-github", text = "Github" },
 ]
+
+[extra.enabled]
+profile = true
+about = true
+more = true
+skills = true
+timeline = true
+projects = true
+quote = true
+github = true
+contact = true
+footer = true
+
+
+[languages.pt]
+generate_feed = true
+build_search_index = true

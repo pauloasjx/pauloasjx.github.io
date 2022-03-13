@@ -1,3 +1,3 @@
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = https://github.com/getzola/hyde.git
+[submodule "themes/asjx-zola-theme"]
+  path = themes/asjx-zola-theme	
+	url = git@github.com:pauloasjx/asjx-zola-theme.git
