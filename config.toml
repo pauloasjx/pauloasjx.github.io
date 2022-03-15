@@ -8,22 +8,30 @@ theme = "asjx-zola-theme"
 
 [markdown]
 highlight_code = true
+highlight_theme = "ayu-light"
 
 [extra]
 socials = [
-    { href = "https://twitter.com/", icon = "im im-twitter", text = "Twitter" },
+    { href = "https://twitter.com/pauloasjx", icon = "im im-twitter", text = "Twitter" },
     { href = "https://www.linkedin.com/in/", icon = "im im-linkedin", text = "Linkedin" },
-    { href = "https://github.com/", icon = "im im-github", text = "Github" },
+    { href = "https://github.com/pauloasjx", icon = "im im-github", text = "Github" },
+]
+
+menus = [
+    { content = "Home", title = "home", href = "#home" },
+    { content = "Blog", title = "blog", href = "/blog" },
+    { content = "About", title = "sobre", href = "#sobre" },
 ]
 
 [extra.enabled]
 profile = true
 about = true
+menu = true
 more = true
-skills = true
-timeline = true
-projects = true
-quote = true
+skills = false
+timeline = false
+projects = false
+quote = false
 github = true
 contact = true
 footer = true
