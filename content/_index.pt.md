@@ -1,18 +1,13 @@
 +++
-[extra.menu]
-enabled = true
 menus = [
     { content = "Home", title = "home", href = "#home" },
+    { content = "Blog", title = "blog", href = "/blog" },
     { content = "Sobre", title = "sobre", href = "#sobre" },
-    { content = "Histórico e Experiência", title = "historico", href = "#historico" },
-    { content = "Alguns Trabalhos", title = "trabalhos", href = "#trabalhos" },
 ]
 
 [extra.profile]
-enabled = true
-title = "Olá mundo"
-description = """Eu sou alguém
-Desenvolvedor apaixonado por inovação."""
+title = "Eu sou Paulo A"
+description = """Desenvolvedor baseado em desafios"""
 buttons = [
     { text = "Blog", url = "#blog" },
     { text = "Sobre Mim", url = "#sobre" },
@@ -20,15 +15,18 @@ buttons = [
 arrow = "Conheça-me"
 
 [extra.about]
-enabled = true
 title = "Sobre"
-description = "Um pouco sobre mim"
-content = """Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui corrupti, dolore quia exercitationem doloremque ex consequuntur quasi eos vitae molestiae recusandae similique expedita illo sapiente nisi ipsam! Fugiat, distinctio saepe?"""
+description = ""
+content = """
+Trabalho como desenvolvedor em diversas áreas. Já trabalhei com muitas tecnologias em várias linguagens diferentes também, seja backend, frontend, mobile, data science e machine learning. Cada uma dessas áreas utilizou o que parecia mais adequado ao problema. Atualmente, tenho trabalhado mais com flutter, rust, typescript e python. Depois de muitos anos na área, acredito que uma habilidade importante é aprender sob demanda e ser capaz de se adaptar.
+"""
+extra = """
+No meu blog você pode acompanhar minha prática de \"aprender em público\" e também sobre temas que gosto.
+"""
 
 [extra.about.more]
-enabled = true
-title = "Um muito mais sobre mim"
-content = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur facere consequatur, harum hic aut, nulla quos eos sapiente omnis unde ipsum veniam doloremque officia aliquid rerum, quas dicta perspiciatis odio!"
+title = "Curriculum Vitae"
+content = "Sou formado em engenharia da computação. Minha experiência em empresas é em áreas como backend (laravel - php), desenvolvimento mobile nativo (android - kotlin, ios - swift) e data science/machine learning (python). Tenho outras habilidades, algumas destacadas: desenvolvimento usando typescript (node, react), mobile com flutter. Iniciei um mestrado na área de Biologia Molecular Computacional, mas não o terminei devido à covid-19."
 button = "Veja meu Currículo"
 button_href = "cv.pdf"
 

@@ -33,7 +33,7 @@ timeline = false
 projects = false
 quote = false
 github = true
-contact = true
+contact = false
 footer = true
 
 
