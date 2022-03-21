@@ -1,15 +1,15 @@
 +++
 menus = [
     { content = "Home", title = "home", href = "#home" },
-    { content = "Blog", title = "blog", href = "/blog" },
+    # { content = "Blog", title = "blog", href = "/blog" },
     { content = "Sobre", title = "sobre", href = "#sobre" },
 ]
 
 [extra.profile]
-title = "Eu sou Paulo A"
+title = "Eu sou Paulo Alves"
 description = """Desenvolvedor baseado em desafios"""
 buttons = [
-    { text = "Blog", url = "#blog" },
+    # { text = "Blog", url = "#blog" },
     { text = "Sobre Mim", url = "#sobre" },
 ]
 arrow = "Conheça-me"
@@ -21,12 +21,12 @@ content = """
 Trabalho como desenvolvedor em diversas áreas. Já trabalhei com muitas tecnologias em várias linguagens diferentes também, seja backend, frontend, mobile, data science e machine learning. Cada uma dessas áreas utilizou o que parecia mais adequado ao problema. Atualmente, tenho trabalhado mais com flutter, rust, typescript e python. Depois de muitos anos na área, acredito que uma habilidade importante é aprender sob demanda e ser capaz de se adaptar.
 """
 extra = """
-No meu blog você pode acompanhar minha prática de \"aprender em público\" e também sobre temas que gosto.
+No meu blog você pode acompanhar minha prática de \"aprender em público\" e também sobre temas que gosto (Em breve).
 """
 
 [extra.about.more]
 title = "Curriculum Vitae"
-content = "Sou formado em engenharia da computação. Minha experiência em empresas é em áreas como backend (laravel - php), desenvolvimento mobile nativo (android - kotlin, ios - swift) e data science/machine learning (python). Tenho outras habilidades, algumas destacadas: desenvolvimento usando typescript (node, react), mobile com flutter. Iniciei um mestrado na área de Biologia Molecular Computacional, mas não o terminei devido à covid-19."
+content = "Sou formado em engenharia da computação. Minha experiência em empresas é em áreas como backend (laravel - php), desenvolvimento mobile nativo (android - kotlin, ios - swift) e data science/machine learning (python). Tenho outras habilidades, algumas destacadas: desenvolvimento usando typescript (node, react), mobile com flutter. Iniciei um mestrado na área de Biologia Molecular Computacional, mas não o completei devido à covid-19."
 button = "Veja meu Currículo"
 button_href = "cv.pdf"
 
