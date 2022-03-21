@@ -28,7 +28,7 @@ No meu blog você pode acompanhar minha prática de \"aprender em público\" e t
 title = "Curriculum Vitae"
 content = "Sou formado em engenharia da computação. Minha experiência em empresas é em áreas como backend (laravel - php), desenvolvimento mobile nativo (android - kotlin, ios - swift) e data science/machine learning (python). Tenho outras habilidades, algumas destacadas: desenvolvimento usando typescript (node, react), mobile com flutter. Iniciei um mestrado na área de Biologia Molecular Computacional, mas não o completei devido à covid-19."
 button = "Veja meu Currículo"
-button_href = "cv.pdf"
+button_href = "../cv.pdf"
 
 [extra.skills]
 enabled = true
